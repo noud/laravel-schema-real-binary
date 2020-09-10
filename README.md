@@ -26,7 +26,7 @@ by adding a real binary column to migrations.
         $table->string('id')->unique();
         $table->realBinary('currency', 3);
         // works as well
-        // $table->char('currency', 3)->charset('binary')->nullable();
+        // $table->char('currency', 3)->charset('binary');
         $table->foreign('currency')->references('code')->on('currency');
     });
 ``` 
