@@ -27,6 +27,7 @@ by adding a real binary column to migrations.
         $table->realBinary('currency', 3);
         // works as well
         // $table->char('currency', 3)->charset('binary');
+
         $table->foreign('currency')->references('code')->on('currency');
     });
 ``` 
@@ -84,6 +85,7 @@ used together with
 
 ## inspirations
 This Laravel package is inspired by
+- [Laravel Schema Builder : Creating a binary(16) column](http://stackoverflow.com/questions/49389233/laravel-schema-builder-creating-a-binary16-column)
 - [Laravel Doctrine Extensions](http://github.com/laravel-doctrine/extensions)
     - [Doctrine Behavioral Extensions](http://github.com/Atlantic18/DoctrineExtensions)
     - [DoctrineExtensions](http://github.com/beberlei/DoctrineExtensions)
