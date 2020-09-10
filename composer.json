@@ -1,0 +1,34 @@
+{
+    "name": "noud/laravel-schema-real-binary",
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/database": "~7.0|~8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1",
+        "mockery/mockery": "dev-master"
+    },
+   "description": "Laravel case sensive Schema column type",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noud de Brouwer",
+            "email": "noud4@home.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Real\\Binary\\": "src/app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Real\\Binary\\Providers\\RealBinaryServiceProvider"
+            ]
+        }
+    }
+}
