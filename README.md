@@ -85,6 +85,7 @@ used together with
 
 ## inspirations
 This Laravel package is inspired by
+<!-- - [Doctrine Custom Mapping Types](http://doctrine-project.org/projects/doctrine-orm/en/2.7/cookbook/custom-mapping-types.html) -->
 - [Laravel Schema Builder : Creating a binary(16) column](http://stackoverflow.com/questions/49389233/laravel-schema-builder-creating-a-binary16-column)
 - [Laravel Doctrine Extensions](http://github.com/laravel-doctrine/extensions)
     - [Doctrine Behavioral Extensions](http://github.com/Atlantic18/DoctrineExtensions)
